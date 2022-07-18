@@ -1,0 +1,12 @@
+{
+  "name": "nextjs-monorepo",
+  "private": true,
+  "packageManager": "yarn@3.2.1",
+  "workspaces": [
+    "shared",
+    "website"
+  ],
+  "scripts": {
+    "dev": "yarn workspace website run dev"
+  }
+}
